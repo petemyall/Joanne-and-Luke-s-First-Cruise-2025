@@ -44,3 +44,28 @@ body {
 .button:hover {
   background-color: rgba(19, 44, 69, 0.7); /* slightly less transparent on hover */
 }
+.gallery-page {
+  color: #0d1a2b;
+}
+
+.gallery-page .description-box {
+  border-color: #0d1a2b;
+  color: #0d1a2b;
+}
+
+.gallery-page .description-box h2 {
+  color: #0d1a2b;
+}
+
+.gallery-page .gallery img {
+  border-color: #0d1a2b;
+  box-shadow: 0 0 8px rgba(13, 26, 43, 0.3);
+}
+
+.gallery-page .button {
+  background-color: rgba(13, 26, 43, 0.5);
+}
+
+.gallery-page .button:hover {
+  background-color: rgba(13, 26, 43, 0.7);
+}
