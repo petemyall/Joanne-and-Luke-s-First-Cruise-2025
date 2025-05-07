@@ -7,7 +7,9 @@ body {
   background: url('background.jpg') no-repeat center center fixed; /* Background image */
   background-size: cover; /* Ensures it covers the entire screen */
 }
-
+body {
+  color: #90b2d4; /* A dark navy blue */
+}
 /* Cruise Ship Positioned Behind the Description Box */
 .hero-ship {
   position: absolute; /* Places it behind the content */
