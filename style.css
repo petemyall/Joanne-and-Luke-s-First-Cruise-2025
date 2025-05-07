@@ -4,7 +4,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  background: url('images/j&l.jpg') no-repeat center center fixed; /* Background image */
+  background: url('images/background.jpg') no-repeat center center fixed; /* Background image */
   background-size: cover; /* Ensures it covers the entire screen */
 }
 
@@ -33,4 +33,39 @@ body {
 @keyframes float {
   0% { transform: translateY(0); }
   50% { transform: translateY(-20px); } /* Moves up more */
-  100% {
+  100% { transform: translateY(0); } /* Moves back down */
+}
+
+/* Description Box with 50% Transparency */
+.description-box {
+  position: relative; /* Ensures it stays above the ship */
+  background-color: rgba(255, 255, 255, 0.5); /* 50% transparency */
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1; /* Keeps it above the ship */
+  max-width: 800px;
+  margin: 100px auto; /* Centers it and adds space from the top */
+}
+
+/* Entry Sections */
+.entry {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.6); /* Slight transparency */
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  white-space: nowrap;
+  }
