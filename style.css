@@ -1,95 +1,14 @@
-/* === Global Styles === */
+/* General Page Styling */
 body {
   font-family: Arial, sans-serif;
+  text-align: center;
   margin: 0;
   padding: 0;
-  background-color: #e0e0e0; /* Fallback if image fails */
-  background-image: url('images/j&l.jpg'); /* Ensure correct filename & path */
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  color: white; /* Default text colour */
 }
 
-/* === Headings === */
-h1, h2 {
-  text-align: center;
-  color: #ffffff; /* Ensures readability */
-}
-
-/* === Navigation Styles === */
-nav {
-  text-align: center;
-  margin: 20px 0;
-}
-
-nav a {
-  margin: 0 10px;
-  padding: 10px 20px;
-  background-color: #007BFF;
-  color: #cce6ff;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-nav a:hover {
-  background-color: #0056b3; /* Darker blue on hover */
-  color: white; /* Text brightens on hover */
-}
-
-/* === Content Box Styling === */
-.description-box {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.5); /* Soft white with slight transparency */
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-.description-box h2 {
-  color: #003366; /* Deep blue */
-  margin-bottom: 15px;
-}
-
-.description-box p {
-  font-size: 18px;
-  color: #333;
-  line-height: 1.6;
-}
-
-/* === Image Gallery Styling === */
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1em;
-}
-
-.gallery img {
-  width: 200px;
-  border: 3px solid #003366;
-  border-radius: 8px;
-}
-
-/* === Button Styles (General Use) === */
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #66B2FF; /* Pale blue */
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
-                              }
+/* Cruise Ship Positioned Behind the Description Box */
 .hero-ship {
-  position: absolute; /* Positions it behind the content */
+  position: absolute; /* Places it behind the content */
   top: 0;
   left: 0;
   width: 100%;
@@ -102,16 +21,49 @@ nav a:hover {
 }
 
 .hero-ship img {
-  width: 80%; /* Make the ship large */
-  max-width: 800px; /* Prevent it from being too big */
+  width: 90%; /* Make the ship large */
+  max-width: 900px; /* Prevent it from being too big */
   height: auto;
-  animation: float 6s infinite ease-in-out;
+  animation: float 8s infinite ease-in-out; /* More pronounced movement */
 }
 
+/* More Pronounced Floating Animation */
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); } /* Moves up more */
+  100% { transform: translateY(0); } /* Moves back down */
+}
+
+/* Description Box with 50% Transparency */
 .description-box {
   position: relative; /* Ensures it stays above the ship */
-  background-color: rgba(255, 255, 255, 0.5); /* Slight transparency */
+  background-color: rgba(255, 255, 255, 0.5); /* 50% transparency */
   padding: 20px;
   border-radius: 10px;
   z-index: 1; /* Keeps it above the ship */
+  max-width: 800px;
+  margin: 100px auto; /* Centers it and adds space from the top */
+}
+
+/* Entry Sections */
+.entry {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.6); /* Slight transparency */
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  white-space: nowrap;
 }
