@@ -1,101 +1,58 @@
-/* Global Styles */
+/* Global styles */
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-image: url('images/background.jpg');
+  background: url('images/background.jpg') no-repeat center center fixed;
   background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  color: #132c45;
+  color: #132c45; /* Dark text */
+  line-height: 1.6;
+  font-size: 1.1em; /* Slightly larger text */
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4); /* Soft white halo */
 }
 
-h1, h2, p, li {
-  color: #132c45;
+/* Hero ship image */
+.hero-ship img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-/* Description Box */
-.description-box {
-  background-color: rgba(62, 97, 133, 0.5);
+/* Description box and content boxes */
+.description-box,
+.content-box,
+nav,
+.gallery {
+  background-color: rgba(255, 255, 255, 0.85); /* Increased opacity for better contrast */
   padding: 20px;
   margin: 20px auto;
-  max-width: 800px;
   border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  max-width: 900px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  color: #132c45;
+  font-weight: 700;
+}
+
+/* Paragraphs */
+p {
+  color: #132c45;
+  font-weight: 500;
 }
 
 /* Buttons */
-.button {
+.button,
+nav a {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: rgba(62, 97, 133, 0.5);
+  padding: 12px 24px;
+  background-color: rgba(62, 97, 133, 0.85); /* Your chosen blue with good opacity */
   color: white;
   text-decoration: none;
   border-radius: 8px;
-  margin: 5px 0;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.button:hover {
-  background-color: rgba(62, 97, 133, 0.8);
-  box-shadow: 0 0 8px rgba(62, 97, 133, 0.8);
-}
-
-/* Gallery Images */
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1em;
-}
-
-.gallery img {
-  width: 200px;
-  border: 3px solid #132c45;
-  border-radius: 8px;
-  box-shadow: 0 0 6px rgba(0,0,0,0.3);
-}
-
-/* Navigation Buttons */
-nav div a {
-  display: inline-block;
-  padding: 10px 10px;
-  background-color: rgba(62, 97, 133, 0.5);
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  margin: 0 10px 10px 10px;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-nav div a:hover {
-  background-color: rgba(62, 97, 133, 0.8);
-  box-shadow: 0 0 8px rgba(62, 97, 133, 0.8);
-}
-
-/* Highlight active nav button */
-nav a.active {
-  background-color: rgba(19, 44, 69, 0.8);
+  margin: 5px;
   font-weight: bold;
-  box-shadow: 0 0 8px rgba(19, 44, 69, 0.5);
-}
-
-/* Simple footer */
-footer {
-  text-align: center;
-  color: #ffffff;
-  background-color: rgba(19, 44, 69, 0.7);
-  padding: 10px;
-  margin-top: 40px;
-  border-top: 1px solid rgba(255,255,255,0.3);
-  font-size: 0.9em;
-}
-
-/* Responsive navigation buttons */
-@media (max-width: 600px) {
-  nav div a {
-    display: block;
-    width: 80%;
-    margin: 10px auto;
-  }
-}
+  transition: background-color
