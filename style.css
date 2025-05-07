@@ -89,14 +89,16 @@ nav a:hover {
   background-color: #0056b3; /* Darker blue on hover */
                               }
 .floating-ship {
-  position: absolute; /* Makes it float over the content */
-  bottom: 10px; /* Adjust height */
+  position: fixed; /* Keeps it visible at the bottom */
+  bottom: 20px; /* Adjust height */
   left: 50%;
   transform: translateX(-50%);
   animation: float 4s infinite ease-in-out;
+  z-index: -1; /* Sends it behind the text */
 }
 
 .floating-ship img {
   width: 150px; /* Adjust size */
   display: block; /* Prevents extra spacing */
+  opacity: 0.8; /* Slight transparency */
 }
