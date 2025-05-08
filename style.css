@@ -19,23 +19,30 @@ h1, h2 {
 
 /* === Navigation Styles === */
 nav {
-  text-align: center;
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allows buttons to wrap on smaller screens */
+  gap: 15px; /* Adds spacing between buttons */
   margin: 20px 0;
 }
 
 nav a {
-  margin: 0 10px;
-  padding: 10px 20px;
+  display: inline-block;
+  padding: 15px 25px;
   background-color: #007BFF;
   color: #cce6ff;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 8px;
   transition: background-color 0.3s ease;
+  text-align: center;
+  font-size: 18px;
+  min-width: 100px; /* Ensures reasonable size on small screens */
 }
 
 nav a:hover {
-  background-color: #0056b3; /* Darker blue on hover */
-  color: white; /* Text brightens on hover */
+  background-color: #0056b3;
+  color: white;
 }
 
 /* === Content Box Styling === */
