@@ -4,23 +4,14 @@
   <meta charset="UTF-8">
   <title>Cruise Map</title>
   <link rel="stylesheet" href="style.css">
-
-  <link rel="manifest" href="manifest.json">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="application-name" content="Fjords Cruise 2025">
-  <meta name="theme-color" content="#132c45">
-  <link rel="icon" type="image/png" sizes="192x192" href="images/icon.png">
-  <link rel="apple-touch-icon" href="images/icon.png">
 </head>
+<body>
+  <h1 style="text-align: center;">Cruise Route Map</h1>
 
-<body class="map-page">
-
-  <div class="description-box">
-    <h2>🗺️ Cruise Route Map</h2>
+  <div class="content-box">
     <p>This map shows the route of our P&O Cruise G512 through the breathtaking Norwegian Fjords in May 2025.</p>
 
-    <h3>Ports of Call</h3>
+    <h2>Ports of Call</h2>
     <ul>
       <li>Southampton, UK</li>
       <li>Stavanger</li>
@@ -28,22 +19,29 @@
       <li>Olden / Innvikfjorden</li>
       <li>Haugesund</li>
     </ul>
-  </div>
 
-  <div style="text-align: center; margin: 20px 0;">
     <iframe 
       src="https://www.google.com/maps/d/embed?mid=1G3y5wZD6Voos_YUFn6WnOXo6sZygUz0&ehbc=2E312F" 
       width="90%" 
       height="600" 
-      style="border:2px solid white; max-width: 100%; border-radius: 8px;">
+      style="border:2px solid white; max-width: 100%;">
     </iframe>
   </div>
 
   <nav>
     <div style="text-align: center; margin-top: 20px;">
-      <a href="index.html" class="button">🏠 HOME</a>
-      <a href="gallery.html" class="button">📸 GALLERY</a>
-      <a href="logbook.html" class="button">📒 LOG</a>
+      <a href="index.html" class="nav-button">
+        <span style="font-size: 40px;">🏠</span><br>
+        <span style="font-size: 20px;">HOME</span> 
+      </a>
+      <a href="gallery.html" class="nav-button">
+        <span style="font-size: 40px;">📸</span><br>
+        <span style="font-size: 20px;">GALLERY</span> 
+      </a>
+      <a href="logbook.html" class="nav-button">
+        <span style="font-size: 40px;">📒</span><br>
+        <span style="font-size: 20px;">LOG</span> 
+      </a>
     </div>
   </nav>
 
