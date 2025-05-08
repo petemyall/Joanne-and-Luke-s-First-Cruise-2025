@@ -96,3 +96,9 @@ nav a:hover {
 h1 {
   color: #9bbdde;
 }
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 40px;
+  color: #555;
+}
