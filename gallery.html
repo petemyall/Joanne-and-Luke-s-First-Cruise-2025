@@ -11,12 +11,43 @@
       transform-origin: top center;
       display: inline-block;
     }
+
+    /* Description box style */
+    .description-box {
+      background-color: #ffffff;
+      border: 2px solid #007BFF;
+      border-radius: 10px;
+      padding: 15px;
+      max-width: 600px;
+      margin: 20px auto;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    /* Image styling */
+    .gallery-image {
+      width: 90%;
+      max-width: 400px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
   </style>
 </head>
 
 <body style="background-color: #aefcfc;">
 
   <h1 style="text-align: center;">Cruise Gallery – P&O Iona Norwegian Fjords</h1>
+
+  <div class="description-box">
+    Here are some of our pictures of the magnificent Norwegian Fjords.
+  </div>
+
+  <div style="text-align: center;">
+    <img src="picture1.jpg" alt="Stavanger" class="gallery-image">
+    <img src="picture2.jpg" alt="Ålesund" class="gallery-image">
+    <img src="picture3.jpg" alt="Olden" class="gallery-image">
+  </div>
 
   <nav>
     <div class="nav-buttons" style="text-align: center; margin-top: 20px;">
@@ -29,23 +60,4 @@
         <span style="font-size: 20px;">GALLERY</span> 
       </a>
       <a href="map.html" style="display: inline-block; padding: 10px 10px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; margin: 0 10px;">
-        <span style="font-size: 40px;">🗺️</span><br>
-        <span style="font-size: 20px;">MAP</span> 
-      </a>
-      <a href="https://drive.google.com/drive/folders/YOUR_FOLDER_ID_HERE?usp=sharing" target="_blank" style="display: inline-block; padding: 10px 10px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px; margin: 0 10px;">
-        <span style="font-size: 40px;">🖼️</span><br>
-        <span style="font-size: 20px;">MORE PICTURES</span> 
-      </a>
-    </div>
-  </nav>
-
-  <div style="text-align: center; margin-top: 30px;">
-    <p>Here are some highlights from our Norwegian Fjords cruise onboard P&O Iona.</p>
-    <!-- Example images -->
-    <img src="image1.jpg" alt="Stavanger" style="width:90%; max-width:400px; margin-bottom: 15px;">
-    <img src="image2.jpg" alt="Ålesund" style="width:90%; max-width:400px; margin-bottom: 15px;">
-    <img src="image3.jpg" alt="Olden" style="width:90%; max-width:400px; margin-bottom: 15px;">
-  </div>
-
-</body>
-</html>
+        <span
