@@ -48,7 +48,7 @@ nav a:hover {
 .description-box {
   max-width: 800px;
   margin: 40px auto;
-  padding: 20px;
+  padding: 10px;
   background-color: rgba(255, 255, 255, 0.5); /* Soft white with 50% transparency */
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
