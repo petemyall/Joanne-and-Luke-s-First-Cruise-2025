@@ -43,6 +43,42 @@ nav a:hover {
   background-color: #0056b3;
   color: white;
 }
+/* === Gallery Page Specific Text Sizes === */
+.center-text {
+  text-align: center;
+}
+
+/* Icons and labels inside nav buttons */
+.nav-icon {
+  font-size: 40px;
+}
+
+.nav-label {
+  font-size: 20px;
+}
+
+/* === Responsive Typography for small screens === */
+@media (max-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p, li, nav a, .nav-label {
+    font-size: 18px;
+  }
+
+  .nav-icon {
+    font-size: 36px;
+  }
+}
 
 /* === Content Box Styling === */
 .description-box {
