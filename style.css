@@ -83,32 +83,17 @@ footer {
 
 /* === Responsive Typography for small screens === */
 @media (max-width: 600px) {
-  body {
-    font-size: 18px;
-  }
+  body { font-size: 18px; }
 
-  h1 {
-    font-size: 28px;
-  }
+  h1 { font-size: 28px; }
 
-  h2 {
-    font-size: 24px;
-  }
+  h2 { font-size: 24px; }
 
-  p, li, nav a, .nav-label {
-    font-size: 18px;
-  }
+  p, li, nav a, .nav-label { font-size: 18px; }
 
-  .nav-icon {
-    font-size: 36px;
-  }
-  @media (max-width: 600px) {
-  nav a {
-    transform: scale(0.75);
-    transform-origin: center;
-  }
-  }
-}
+  .nav-icon { font-size: 36px; }
+  
+  nav a { transform: scale(0.75); transform-origin: center; }
 
 /* === Content Box Styling === */
 .description-box {
@@ -137,24 +122,13 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.5em; /* Slightly larger
-  /* === Responsive Typography for small screens === */
-@media (max-width: 600px) {
-  body {
-    font-size: 18px;
-  }
+  gap: 1.5em; }
+  
+  body { font-size: 18px; }
+  h1 { font-size: 28px; }
+  h2 { font-size: 24px; }
 
-  h1 {
-    font-size: 28px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-
-  p, li, nav a {
-    font-size: 18px;
-  }
+  p, li, nav a { font-size: 18px; }
 }
   .gallery-img {
   width: 45%;
@@ -163,3 +137,4 @@ footer {
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
   }
+}
