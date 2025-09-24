@@ -130,7 +130,7 @@ nav a:hover {
   min-width: 4rem;        /* sets a wider minimum size */
   height: auto;           /* let height adjust naturally */
   border-radius: 8px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-decoration: none;
   background: #f7c8d0;
   border: 1px solid #ccc;
