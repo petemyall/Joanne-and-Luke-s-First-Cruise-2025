@@ -64,6 +64,15 @@ nav a:hover {
 .nav-label {
   font-size: 20px;
 }
+footer {
+  background-color: rgba(179,0,0,0.6);
+  color: white;
+  padding: 5px;
+  font-size: 0.75em;
+  letter-spacing: 1px;
+  margin-top: auto;
+  padding-bottom: calc(5px + env(safe-area-inset-bottom));
+}
 
 /* === Responsive Typography for small screens === */
 @media (max-width: 600px) {
