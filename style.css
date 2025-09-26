@@ -180,7 +180,7 @@ nav a:hover {
 
 /* On small screens, make it a bit squarer so it doesn’t get too tall */
 
-  .map-container { max-width: 80%; padding: 0 10px; }
+  .map-container { max-width: 60%; padding: 0 10px; }
   .map-embed { aspect-ratio: 4 / 3; }
 
 footer {
