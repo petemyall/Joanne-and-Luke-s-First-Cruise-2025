@@ -30,6 +30,7 @@ body {
 
 /* === Headings === */
 h1, h2 {
+  font-size: 1.5em;
   text-align: center;
   color: #9bbdde; /* Softer blue for readability */
 }
