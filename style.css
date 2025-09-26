@@ -117,7 +117,7 @@ nav a:hover {
   border-radius: 10px;
 }
 
-.iona-atrium { align-items: center; }
+.iona-atrium { justify-content: center; }
 
 .iona-atrium img { width: 70%; height: auto; display: block; }
 
