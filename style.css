@@ -26,6 +26,14 @@ body {
   padding: 0 10px;
 }
 
+
+
+/* === Headings === */
+h1, h2 {
+  text-align: center;
+  color: #9bbdde; /* Softer blue for readability */
+}
+
 /* === Content Box Styling === */
 .description-box {
   width: 95%;
@@ -40,19 +48,14 @@ body {
 
 .description-box h2 {
   color: #003366; /* Deep blue */
-  margin-bottom: 15px;
+  font-size: 1.2em;
+  margin-bottom: 10px;
 }
 
 .description-box p {
   font-size: 16px;
   color: #333;
   line-height: 1.6;
-}
-
-/* === Headings === */
-h1, h2 {
-  text-align: center;
-  color: #9bbdde; /* Softer blue for readability */
 }
 
 /* === Navigation Styles === */
