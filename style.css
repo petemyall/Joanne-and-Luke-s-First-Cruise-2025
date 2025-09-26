@@ -46,6 +46,11 @@ h1, h2 {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   text-align: center;
 }
+.description-box h1 {
+  color: #9bbdde; /* Soft blue */
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
 
 .description-box h2 {
   color: #003366; /* Deep blue */
