@@ -98,6 +98,14 @@ nav a:hover {
   max-width: 750px;       /* <- shrink the map overall; try 700–900px to taste */
   margin: 0 auto 20px;
 }
+.map-embed {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;    /* <- overall shape; try 16/9 or 4/3 if you prefer */
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
 /* ----------------------------------------------------
    BUTTON GRID + ALBUM BANNER
 -----------------------------------------------------*/
@@ -169,20 +177,6 @@ nav a:hover {
   box-shadow: 2px 3px 6px rgba(0,0,0,0.2);
 }
 
-
-.map-embed {
-  display: block;
-  width: 100%;
-  aspect-ratio: 16 / 9;    /* <- overall shape; try 16/9 or 4/3 if you prefer */
-  border: 2px solid #fff;
-  border-radius: 10px;
-}
-
-/* On small screens, make it a bit squarer so it doesn’t get too tall */
-
-  .map-container { max-width: 60%; padding: 0 10px; }
-  .map-embed { aspect-ratio: 4 / 3; }
-
 footer {
   background-color: rgba(179,0,0,0.6);
   color: white;
@@ -234,11 +228,11 @@ footer {
   color: #333;
   line-height: 1.6;
 }
-  /* On small screens, make it a bit squarer so it doesn’t get too tall */
+/* On small screens, make it a bit squarer so it doesn’t get too tall */
 
-  .map-container { max-width: 100%; padding: 0 10px; }
+  .map-container { max-width: 60%; padding: 0 10px; }
   .map-embed { aspect-ratio: 4 / 3; }
-  
+
 
 /* === Image Gallery Styling === */
 .gallery {
