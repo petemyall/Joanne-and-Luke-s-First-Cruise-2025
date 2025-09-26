@@ -209,7 +209,7 @@ footer {
 
 /* === Content Box Styling === */
 .description-box {
-  max-width: 800px;
+  max-width: 95vw;
   margin: 40px auto;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.5); /* Soft white with 50% transparency */
@@ -224,7 +224,7 @@ footer {
 }
 
 .description-box p {
-  font-size: 18px;
+  font-size: 14px;
   color: #333;
   line-height: 1.6;
 }
