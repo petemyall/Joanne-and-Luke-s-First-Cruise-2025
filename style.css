@@ -53,11 +53,8 @@ h1, h2 {
   margin-bottom: 10px;
 }
 
-.map-page h2 {
-  color: #003366; /* Deep blue */
-  font-size: 1.8em;
-  margin-bottom: 10px;
-}
+.map-page h2 { color: #003366; font-size: 1.8em; margin-bottom: 10px; }
+.index-page h2 { color: #003366; font-size: 1.8em; margin-bottom: 10px; }
 
 .description-box p {
   font-size: 16px;
