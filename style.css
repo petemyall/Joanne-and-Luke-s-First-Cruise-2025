@@ -28,7 +28,7 @@ body {
 
 /* === Content Box Styling === */
 .description-box {
-  width: 95vw;
+  width: 95%;
   margin: 10px auto;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.6); /* Soft white with 50% transparency */
@@ -196,13 +196,12 @@ footer {
 /* === Responsive Typography for small screens === */
 @media (max-width: 600px) {
   html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
+  height: auto;
+  minimum-height: 100%;
   flex-direction: column;
-  }
-  body { font-size: 0.9em; }
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  font-size: 0.9em; }
 
   h1 { font-size: 28px; }
 
