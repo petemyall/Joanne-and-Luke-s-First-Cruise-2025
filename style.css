@@ -95,7 +95,7 @@ nav a:hover {
 }
 /* --- Responsive map sizing --- */
 .map-container {
-  max-width: 800px;       /* <- shrink the map overall; try 700–900px to taste */
+  max-width: 750px;       /* <- shrink the map overall; try 700–900px to taste */
   margin: 0 auto 20px;
 }
 /* ----------------------------------------------------
@@ -173,7 +173,7 @@ nav a:hover {
 .map-embed {
   display: block;
   width: 100%;
-  aspect-ratio: 3 / 2;    /* <- overall shape; try 16/9 or 4/3 if you prefer */
+  aspect-ratio: 16 / 9;    /* <- overall shape; try 16/9 or 4/3 if you prefer */
   border: 2px solid #fff;
   border-radius: 10px;
 }
