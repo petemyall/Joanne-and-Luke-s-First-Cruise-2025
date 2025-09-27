@@ -245,7 +245,8 @@ footer {
 
   .map-container { max-width: 60%; padding: 0 10px; }
   .map-embed { aspect-ratio: 4 / 3; }
-
+.album-banner .day-icons a { font-size: 0.8em; }
+  
 
 /* === Image Gallery Styling === */
 .gallery {
