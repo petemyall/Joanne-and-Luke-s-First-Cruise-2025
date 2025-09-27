@@ -204,7 +204,7 @@ footer {
 @media (max-width: 600px) {
   html, body {
   height: auto;
-  minimum-height: 100%;
+  minimum-height: 90%;
   flex-direction: column;
   overflow-x: hidden;
   -webkit-text-size-adjust: 100%;
