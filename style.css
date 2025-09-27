@@ -210,9 +210,9 @@ footer {
   -webkit-text-size-adjust: 100%;
   font-size: 0.9em; }
 
-  h1 { font-size: 28px; }
+  h1 { font-size: 1.8em; }
 
-  h2 { font-size: 24px; }
+  h2 { font-size: 1.5em; }
 
   p, li, nav a, .nav-label { font-size: 18px; }
 
@@ -237,7 +237,7 @@ footer {
 }
 
 .description-box p {
-  font-size: 14px;
+  font-size: 1.5em;
   color: #333;
   line-height: 1.6;
 }
