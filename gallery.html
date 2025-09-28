@@ -42,6 +42,17 @@
   <footer>
     © Joanne & Luke's Fjords Cruise 2025
   </footer>
+  
+const images = document.querySelectorAll('.photo-grid img');
 
+images.forEach(img => {
+  img.addEventListener('click', () => {
+    // First remove 'enlarged' from all images
+    images.forEach(i => i.classList.remove('enlarged'));
+
+    // Then toggle 'enlarged' on the one you clicked
+    img.classList.toggle('enlarged');
+  });
+});
 </body>
 </html>
