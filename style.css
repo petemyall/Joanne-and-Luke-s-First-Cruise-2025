@@ -37,14 +37,14 @@ body::before {
 
 /* === Headings === */
 h2 {
-  font-size: 2.5em;
+  font-size: 2em;
   text-align: center;
   color: #003366; /* Softer blue for readability */
 }
 
 h1 {
   color: #9bbdde; /* Soft blue */
-  font-size: 2.5em;
+  font-size: 2.1em;
   text-shadow: 3px 3px 6px #003366;
   margin-bottom: 10px; }
 
