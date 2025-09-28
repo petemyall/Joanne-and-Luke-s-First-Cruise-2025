@@ -121,6 +121,25 @@ nav a:hover {
   border-radius: 10px;
 }
 
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.photo-grid img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.photo-grid img.enlarged {
+  transform: scale(2);   /* double size */
+  z-index: 20;
+  position: relative;
+}
 .hero-ship { justify-content: center; display: flex; }
 
 
