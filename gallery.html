@@ -48,11 +48,14 @@ const images = document.querySelectorAll('.photo-grid img');
 
 images.forEach(img => {
   img.addEventListener('click', () => {
-    // First remove 'enlarged' from all images
-    images.forEach(i => i.classList.remove('enlarged'));
-
-    // Then toggle 'enlarged' on the one you clicked
-    img.classList.toggle('enlarged');
+    if (img.classList.contains('enlarged')) {
+      // If already enlarged, shrink it back
+      img.classList.remove('enlarged');
+    } else {
+      // Otherwise, reset all and enlarge the clicked one
+      images.forEach(i => i.classList.remove('enlarged'));
+      img.classList.add('enlarged');
+    }
   });
 });
 </script>
