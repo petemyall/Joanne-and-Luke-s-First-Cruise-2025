@@ -67,8 +67,8 @@ h1 {
   margin-bottom: 10px;
 }
 
-.gallery-page h1 { color: #003366; font-size: 1.8em; margin-bottom: 2px; }
-.gallery-page h2 { color: #003366; font-size: 1.8em; margin-bottom: 2px; }
+.gallery-page h1 { font-size: 1.8em; margin-bottom: 2px; }
+.gallery-page h2 { font-size: 1.8em; margin-bottom: 2px; }
 .map-page h2 { color: #003366; font-size: 1.8em; margin-bottom: 10px; }
 .index-page h2 { color: #003366; font-size: 1.8em; margin-bottom: 10px; }
 
