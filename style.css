@@ -118,7 +118,7 @@ nav a:hover {
 .hero-ship { justify-content: center; display: flex; }
 
 .page-photo img { width: 70%; height: auto; display: block; }
-.gallery-page .page-photo img { width: 50%; height: auto; display: block; }
+.gallery-page .page-photo img { width: 25%; height: auto; display: block; }
 
 /* ----------------------------------------------------
    BUTTON GRID + ALBUM BANNER
